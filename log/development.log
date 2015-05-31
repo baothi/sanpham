@@ -2391,3 +2391,2069 @@ Processing by ProductsController#index as HTML
   [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"
   Rendered products/index.html.haml within layouts/application (15.9ms)
 Completed 200 OK in 126ms (Views: 117.1ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2015-05-31 18:35:22 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.haml (8.5ms)
+  Rendered products/new.html.haml within layouts/application (18.7ms)
+Completed 200 OK in 382ms (Views: 356.5ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/home.self-f8440bd95105a2e3cb3177073c1b2a79422fd8c18d6096b46e32a9bb2f4bab72.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/init.self-aeb49557f5adc869b9e19f692da853c686eddd440f24f4d6c8913c8ffc11ad89.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started GET "/assets/scaffolds.self-c6a6b63b8c5cb035e842011ba9b7f601a157883214e99ba75e397a9b6b91a925.css?body=1" for 127.0.0.1 at 2015-05-31 18:35:23 +0700
+
+
+Started POST "/products" for 127.0.0.1 at 2015-05-31 18:35:45 +0700
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x7PeybrMYYKeAIuggcpkCh2s0uqXFKBERaD6V72KtWwTyYohJaAIwYLbKIl63ipVV/KvmwMvRFEmbFYkRv1saw==", "product"=>{"name"=>"sach 1", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007f2a1a9b7cd8 @tempfile=#<Tempfile:/tmp/RackMultipart20150531-12164-zxrogy.jpg>, @original_filename="giay-da-nam-asia-buoc-day-den-at-303-_5__1.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"product[avatar]\"; filename=\"giay-da-nam-asia-buoc-day-den-at-303-_5__1.jpg\"\r\nContent-Type: image/jpeg\r\n">, "price"=>"111", "description"=>"111"}, "commit"=>"Create Product"}
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  Rendered products/_form.html.haml (3.6ms)
+  Rendered products/new.html.haml within layouts/application (6.5ms)
+Completed 200 OK in 128ms (Views: 92.5ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-05-31 18:35:55 +0700
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"E9wwFfxt/FIDlziXRLJlQ2D+MmDU9BGMOrGF+gU288rHpmT9YwGVER9Mm76/piscKqBPEUDP9ZlZfSmJ/kEqzQ==", "product"=>{"name"=>"sach 1", "price"=>"1", "description"=>"111"}, "commit"=>"Create Product"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered products/_form.html.haml (2.7ms)
+  Rendered products/new.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 97ms (Views: 92.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-05-31 18:36:00 +0700
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"69dcl7YQ/C4t8OUn0c+mxSXNSn3sKORWeYFqbWPVVfY/rQh/KXyVbTErRg4q2+iab5M3DHgTAEMaTcYemKKM8Q==", "product"=>{"name"=>"sach 1", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007f2a1bcf5318 @tempfile=#<Tempfile:/tmp/RackMultipart20150531-12164-9hlqg5.jpg>, @original_filename="giay-da-nam-luoi-sanvado-khuyen-den-hp-015_4_.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"product[avatar]\"; filename=\"giay-da-nam-luoi-sanvado-khuyen-den-hp-015_4_.jpg\"\r\nContent-Type: image/jpeg\r\n">, "price"=>"1", "description"=>"111"}, "commit"=>"Create Product"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "products" ("name", "avatar", "price", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "sach 1"], ["avatar", "giay-da-nam-luoi-sanvado-khuyen-den-hp-015_4_.jpg"], ["price", 1], ["description", "111"], ["created_at", "2015-05-31 11:36:00.496014"], ["updated_at", "2015-05-31 11:36:00.496014"]]
+  [1m[35m (45.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/products/2
+Completed 302 Found in 76ms (ActiveRecord: 46.7ms)
+
+
+Started GET "/products/2" for 127.0.0.1 at 2015-05-31 18:36:00 +0700
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mProduct Load (0.7ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered products/show.html.haml within layouts/application (5.5ms)
+Completed 200 OK in 193ms (Views: 186.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2015-05-31 18:36:06 +0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.9ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (27.9ms)
+Completed 200 OK in 113ms (Views: 111.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2015-05-31 18:36:25 +0700
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.haml (4.6ms)
+  Rendered products/new.html.haml within layouts/application (8.1ms)
+Completed 200 OK in 88ms (Views: 87.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-05-31 18:36:35 +0700
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i2Lh6Q/RuCljsh2XdK6PSNeXGZzv1SdRA/zxDQjHeDhfGLUBkL3Ran9pvr6PusEXnclk7Xvuw0RgMF1+87ChPw==", "product"=>{"name"=>"22", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007f2a1b764480 @tempfile=#<Tempfile:/tmp/RackMultipart20150531-12164-iuwk8m.jpg>, @original_filename="giay-da-nam-luoi-zatoli-vien-chi-den-xq-12_5_.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"product[avatar]\"; filename=\"giay-da-nam-luoi-zatoli-vien-chi-den-xq-12_5_.jpg\"\r\nContent-Type: image/jpeg\r\n">, "price"=>"22", "description"=>"22"}, "commit"=>"Create Product"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered products/_form.html.haml (3.8ms)
+  Rendered products/new.html.haml within layouts/application (5.3ms)
+Completed 200 OK in 155ms (Views: 123.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-05-31 18:36:39 +0700
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uU6wV3oqxap6ESPSg5QjiTSBnRWok15/s0J8toDQE+ltNOS/5Uas6WbKgPt4gG3Wft/gZDyoumrQjtDFe6fK7g==", "product"=>{"name"=>"22", "price"=>"2", "description"=>"22"}, "commit"=>"Create Product"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered products/_form.html.haml (3.0ms)
+  Rendered products/new.html.haml within layouts/application (4.9ms)
+Completed 200 OK in 111ms (Views: 107.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-05-31 18:36:43 +0700
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nM2tto1WGdo98XiemCNKFSMlfGM2KicNhgUVEjDmJK1It/leEjpwmSEq27djNwRKaXsBEqIRwxjlyblhy5H9qg==", "product"=>{"name"=>"22", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x00000005b01af8 @tempfile=#<Tempfile:/tmp/RackMultipart20150531-12164-1r0ucxj.jpg>, @original_filename="giay-da-nam-luoi-zatoli-vien-chi-den-xq-12_5_.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"product[avatar]\"; filename=\"giay-da-nam-luoi-zatoli-vien-chi-den-xq-12_5_.jpg\"\r\nContent-Type: image/jpeg\r\n">, "price"=>"2", "description"=>"22"}, "commit"=>"Create Product"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "products" ("name", "avatar", "price", "description", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["name", "22"], ["avatar", "giay-da-nam-luoi-zatoli-vien-chi-den-xq-12_5_.jpg"], ["price", 2], ["description", "22"], ["created_at", "2015-05-31 11:36:44.007693"], ["updated_at", "2015-05-31 11:36:44.007693"]]
+  [1m[36m (27.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/products/3
+Completed 302 Found in 56ms (ActiveRecord: 28.2ms)
+
+
+Started GET "/products/3" for 127.0.0.1 at 2015-05-31 18:36:44 +0700
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProduct Load (0.6ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered products/show.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 101ms (Views: 98.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2015-05-31 18:36:48 +0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (8.1ms)
+Completed 200 OK in 90ms (Views: 89.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 19:27:58 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (60.1ms)
+Completed 200 OK in 423ms (Views: 401.7ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (15.3ms)
+Completed 200 OK in 109ms (Views: 107.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/scaffolds.self-c6a6b63b8c5cb035e842011ba9b7f601a157883214e99ba75e397a9b6b91a925.css?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/home.self-f8440bd95105a2e3cb3177073c1b2a79422fd8c18d6096b46e32a9bb2f4bab72.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/init.self-aeb49557f5adc869b9e19f692da853c686eddd440f24f4d6c8913c8ffc11ad89.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-05-31 19:29:07 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (14.8ms)
+Completed 200 OK in 97ms (Views: 95.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/scaffolds.self-c6a6b63b8c5cb035e842011ba9b7f601a157883214e99ba75e397a9b6b91a925.css?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/home.self-f8440bd95105a2e3cb3177073c1b2a79422fd8c18d6096b46e32a9bb2f4bab72.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/init.self-aeb49557f5adc869b9e19f692da853c686eddd440f24f4d6c8913c8ffc11ad89.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-05-31 19:30:51 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 19:39:24 +0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.9ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (21.0ms)
+Completed 200 OK in 108ms (Views: 99.2ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-31 19:39:24 +0700
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 127.0.0.1 at 2015-05-31 19:39:24 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 19:39:24 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-31 19:39:24 +0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 19:39:24 +0700
+
+
+Started GET "/assets/scaffolds.self-c6a6b63b8c5cb035e842011ba9b7f601a157883214e99ba75e397a9b6b91a925.css?body=1" for 127.0.0.1 at 2015-05-31 19:39:24 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-31 19:39:24 +0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:24 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:24 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:24 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:24 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/home.self-f8440bd95105a2e3cb3177073c1b2a79422fd8c18d6096b46e32a9bb2f4bab72.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/init.self-aeb49557f5adc869b9e19f692da853c686eddd440f24f4d6c8913c8ffc11ad89.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-05-31 19:39:25 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 19:53:19 +0700
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.haml within layouts/application (16.4ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected ')', expecting =>
+...ame => "search",product.submit)}>Search</button>\n      </sp...
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: unknown regexp options - pa
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected $undefined
+...Search</button>\n      </span>\n    </input>\n  </div>\n</di...
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: unknown regexp options - dv
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected $undefined
+.../span>\n    </input>\n  </div>\n</div>\n<table class='table ...
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:15: unknown regexp options - th
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:15: syntax error, unexpected $undefined
+));}</th>\n      <th>#{_hamlout.adjust_...
+          ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:16: syntax error, unexpected ')'
+));}</th>\n      <th>#{_hamlou...
+ ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:17: unknown regexp options - th
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:17: syntax error, unexpected $undefined
+));}</th>\n      <th>#{_hamlout.adjust_...
+          ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:18: syntax error, unexpected ')'
+));}</th>\n      <th>#{_hamlou...
+ ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:19: unknown regexp options - th
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:19: syntax error, unexpected $undefined
+));}</th>\n      <th>#{_hamlout.adjust_...
+          ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:20: syntax error, unexpected ')'
+));}</th>\n      <th>#{_hamlou...
+ ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:21: unknown regexp options - th
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:21: syntax error, unexpected $undefined
+));}</th>\n    </tr>\n  </thead>\n  <tbody>\n", -1, false);
+          ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:21: unknown regexp options - thad
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:21: syntax error, unexpected $undefined
+));}</th>\n    </tr>\n  </thead>\n  <tbody>\n", -1, false);
+                                 ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:21: syntax error, unexpected $undefined
+));}</th>\n    </tr>\n  </thead>\n  <tbody>\n", -1, false);
+                                            ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:23: syntax error, unexpected $undefined
+_hamlout.push_text("    <tr>\n      <td>#{_hamlout.adjust_tabs(2); 
+                             ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:25: syntax error, unexpected '}', expecting tSTRING_DEND
+));}</td>\n      <td>#{_hamlout.a...
+    ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:26: unknown regexp options - td
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:26: syntax error, unexpected $undefined
+));}</td>\n      <td>#{_hamlout.adjust_...
+          ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:27: syntax error, unexpected ')'
+));}</td>\n      <td>#{_hamlou...
+ ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:28: unknown regexp options - td
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:28: syntax error, unexpected $undefined
+));}</td>\n      <td>#{_hamlout.adjust_...
+          ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:29: syntax error, unexpected ')'
+));}</td>\n      <td>#{_hamlou...
+ ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:30: unknown regexp options - td
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:30: syntax error, unexpected $undefined
+));}</td>\n      <td>\n        #{_hamlout.adjust_tabs(1); 
+          ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:30: syntax error, unexpected $undefined
+));}</td>\n      <td>\n        #{_hamlout.adjust_tabs(1); 
+                      ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:32: syntax error, unexpected '}', expecting tSTRING_DEND
+));}\n        #{_hamlout.format_s...
+    ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:33: unknown regexp options - tr
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:33: syntax error, unexpected $undefined
+));}\n      </td>\n    </tr>\n", -2, false);end;_hamlout.p...
+                             ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:33: unknown regexp options - tabl
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:33: syntax error, unexpected $undefined
+...ush_text("  </tbody>\n</table>\n", -2, false);end;_hamlout.b...
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:33: syntax error, unexpected $undefined, expecting tSTRING_DEND
+...aml_temp);_hamlout.push_text("\n#{
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:35: syntax error, unexpected '}', expecting tSTRING_DEND
+));}\n", 0, false);::Haml::Util.h...
+    ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:35: unterminated string meets end of file
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:35: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  app/views/products/index.html.haml:10: syntax error, unexpected ')', expecting =>
+  app/views/products/index.html.haml:10: unknown regexp options - pa
+  app/views/products/index.html.haml:10: syntax error, unexpected $undefined
+  app/views/products/index.html.haml:10: unknown regexp options - dv
+  app/views/products/index.html.haml:10: syntax error, unexpected $undefined
+  app/views/products/index.html.haml:15: unknown regexp options - th
+  app/views/products/index.html.haml:15: syntax error, unexpected $undefined
+  app/views/products/index.html.haml:16: syntax error, unexpected ')'
+  app/views/products/index.html.haml:17: unknown regexp options - th
+  app/views/products/index.html.haml:17: syntax error, unexpected $undefined
+  app/views/products/index.html.haml:18: syntax error, unexpected ')'
+  app/views/products/index.html.haml:19: unknown regexp options - th
+  app/views/products/index.html.haml:19: syntax error, unexpected $undefined
+  app/views/products/index.html.haml:20: syntax error, unexpected ')'
+  app/views/products/index.html.haml:21: unknown regexp options - th
+  app/views/products/index.html.haml:21: syntax error, unexpected $undefined
+  app/views/products/index.html.haml:21: unknown regexp options - thad
+  app/views/products/index.html.haml:21: syntax error, unexpected $undefined
+  app/views/products/index.html.haml:21: syntax error, unexpected $undefined
+  app/views/products/index.html.haml:23: syntax error, unexpected $undefined
+  app/views/products/index.html.haml:25: syntax error, unexpected '}', expecting tSTRING_DEND
+  app/views/products/index.html.haml:26: unknown regexp options - td
+  app/views/products/index.html.haml:26: syntax error, unexpected $undefined
+  app/views/products/index.html.haml:27: syntax error, unexpected ')'
+  app/views/products/index.html.haml:28: unknown regexp options - td
+  app/views/products/index.html.haml:28: syntax error, unexpected $undefined
+  app/views/products/index.html.haml:29: syntax error, unexpected ')'
+  app/views/products/index.html.haml:30: unknown regexp options - td
+  app/views/products/index.html.haml:30: syntax error, unexpected $undefined
+  app/views/products/index.html.haml:30: syntax error, unexpected $undefined
+  app/views/products/index.html.haml:32: syntax error, unexpected '}', expecting tSTRING_DEND
+  app/views/products/index.html.haml:33: unknown regexp options - tr
+  app/views/products/index.html.haml:33: syntax error, unexpected $undefined
+  app/views/products/index.html.haml:33: unknown regexp options - tabl
+  app/views/products/index.html.haml:33: syntax error, unexpected $undefined
+  app/views/products/index.html.haml:33: syntax error, unexpected $undefined, expecting tSTRING_DEND
+  app/views/products/index.html.haml:35: syntax error, unexpected '}', expecting tSTRING_DEND
+  app/views/products/index.html.haml:35: unterminated string meets end of file
+  app/views/products/index.html.haml:35: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 19:54:31 +0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.9ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (33.9ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 5.4ms)
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007fb5c41547e0>:0x007fb5d71eff70>):
+     8:       %input.form-control{:placeholder => "Search for...", :type => "text",:name => "text"}
+     9:         %span.input-group-btn
+    10:           / %button.btn.btn-default{:type => "button",:name => "search",product.submit} Search
+    11:           = f.submit nil,class: 'btn btn-primary'
+    12:   %table.table.table-striped
+    13:     %thead
+    14:       %tr
+  app/views/products/index.html.haml:11:in `block in _app_views_products_index_html_haml___1504714624942828265_70209487467980'
+  app/views/products/index.html.haml:1:in `_app_views_products_index_html_haml___1504714624942828265_70209487467980'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (12.5ms)
+Completed 200 OK in 100ms (Views: 99.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/scaffolds.self-c6a6b63b8c5cb035e842011ba9b7f601a157883214e99ba75e397a9b6b91a925.css?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/home.self-f8440bd95105a2e3cb3177073c1b2a79422fd8c18d6096b46e32a9bb2f4bab72.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/init.self-aeb49557f5adc869b9e19f692da853c686eddd440f24f4d6c8913c8ffc11ad89.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-05-31 19:54:49 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 19:55:48 +0700
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.haml within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/baothi/developerment/sanpham/app/views/products/index.html.haml:11: syntax error, unexpected '{', expecting ')'
+...t nil,class: 'btn btn-primary'{:type => "button",:name => "s...
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:11: syntax error, unexpected ',', expecting ')'
+...btn-primary'{:type => "button",:name => "search"} Search
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:11: syntax error, unexpected '}', expecting ')'
+... => "button",:name => "search"} Search
+...                               ^):
+  app/views/products/index.html.haml:11: syntax error, unexpected '{', expecting ')'
+  app/views/products/index.html.haml:11: syntax error, unexpected ',', expecting ')'
+  app/views/products/index.html.haml:11: syntax error, unexpected '}', expecting ')'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:01:26 +0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.8ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (20.9ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.8ms)
+
+ActionView::Template::Error (undefined method `search' for #<SimpleForm::FormBuilder:0x007fb5b8071758>):
+     8:       %input.form-control{:placeholder => "Search for...", :type => "text",:name => "text"}
+     9:         %span.input-group-btn
+    10:           / %button.btn.btn-default{:type => "button",:name => "search",product.submit} Search
+    11:           = product.search nil,class: 'btn btn-primary'
+    12:   %table.table.table-striped
+    13:     %thead
+    14:       %tr
+  app/views/products/index.html.haml:11:in `block in _app_views_products_index_html_haml___1504714624942828265_70209294242440'
+  app/views/products/index.html.haml:1:in `_app_views_products_index_html_haml___1504714624942828265_70209294242440'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.6ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:02:01 +0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.8ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (22.1ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.8ms)
+
+ActionView::Template::Error (undefined local variable or method `search' for #<#<Class:0x007fb5c41547e0>:0x007fb5d437c198>):
+     8:       %input.form-control{:placeholder => "Search for...", :type => "text",:name => "text"}
+     9:         %span.input-group-btn
+    10:           / %button.btn.btn-default{:type => "button",:name => "search",product.submit} Search
+    11:           = product.submit search,class: 'btn btn-primary'
+    12:   %table.table.table-striped
+    13:     %thead
+    14:       %tr
+  app/views/products/index.html.haml:11:in `block in _app_views_products_index_html_haml___1504714624942828265_70209463061420'
+  app/views/products/index.html.haml:1:in `_app_views_products_index_html_haml___1504714624942828265_70209463061420'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:02:04 +0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (14.8ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined local variable or method `search' for #<#<Class:0x007fb5c41547e0>:0x007fb5b866dc10>):
+     8:       %input.form-control{:placeholder => "Search for...", :type => "text",:name => "text"}
+     9:         %span.input-group-btn
+    10:           / %button.btn.btn-default{:type => "button",:name => "search",product.submit} Search
+    11:           = product.submit search,class: 'btn btn-primary'
+    12:   %table.table.table-striped
+    13:     %thead
+    14:       %tr
+  app/views/products/index.html.haml:11:in `block in _app_views_products_index_html_haml___1504714624942828265_70209463061420'
+  app/views/products/index.html.haml:1:in `_app_views_products_index_html_haml___1504714624942828265_70209463061420'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:02:26 +0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (17.2ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined local variable or method `search' for #<#<Class:0x007fb5c41547e0>:0x007fb5d67fba28>):
+     8:       %input.form-control{:placeholder => "Search for...", :type => "text",:name => "text"}
+     9:         %span.input-group-btn
+    10:           / %button.btn.btn-default{:type => "button",:name => "search",product.submit} Search
+    11:           = product.submit name: search,class: 'btn btn-primary'
+    12:   %table.table.table-striped
+    13:     %thead
+    14:       %tr
+  app/views/products/index.html.haml:11:in `block in _app_views_products_index_html_haml___1504714624942828265_70209482249040'
+  app/views/products/index.html.haml:1:in `_app_views_products_index_html_haml___1504714624942828265_70209482249040'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:02:28 +0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (15.7ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined local variable or method `search' for #<#<Class:0x007fb5c41547e0>:0x007fb5b8987720>):
+     8:       %input.form-control{:placeholder => "Search for...", :type => "text",:name => "text"}
+     9:         %span.input-group-btn
+    10:           / %button.btn.btn-default{:type => "button",:name => "search",product.submit} Search
+    11:           = product.submit name: search,class: 'btn btn-primary'
+    12:   %table.table.table-striped
+    13:     %thead
+    14:       %tr
+  app/views/products/index.html.haml:11:in `block in _app_views_products_index_html_haml___1504714624942828265_70209482249040'
+  app/views/products/index.html.haml:1:in `_app_views_products_index_html_haml___1504714624942828265_70209482249040'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:02:44 +0700
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.haml within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/baothi/developerment/sanpham/app/views/products/index.html.haml:11: syntax error, unexpected tLABEL, expecting '='
+...e_false(( product.submit, name: search,class: 'btn btn-prima...
+...                               ^):
+  app/views/products/index.html.haml:11: syntax error, unexpected tLABEL, expecting '='
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.6ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:04:47 +0700
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.haml within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected =>, expecting '}'
+...button.btn.btn-default{:type => "button",:name => "search"} ...
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected ',', expecting '}'
+....btn-default{:type => "button",:name => "search"} Search
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected tCONSTANT, expecting ')'):
+  app/views/products/index.html.haml:10: syntax error, unexpected =>, expecting '}'
+  app/views/products/index.html.haml:10: syntax error, unexpected ',', expecting '}'
+  app/views/products/index.html.haml:10: syntax error, unexpected tCONSTANT, expecting ')'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:05:10 +0700
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.haml within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected =>, expecting '}'
+...button.btn.btn-default{:type => "button",:name => "search"} ...
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected ',', expecting '}'
+....btn-default{:type => "button",:name => "search"} Search
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected tCONSTANT, expecting ')'):
+  app/views/products/index.html.haml:10: syntax error, unexpected =>, expecting '}'
+  app/views/products/index.html.haml:10: syntax error, unexpected ',', expecting '}'
+  app/views/products/index.html.haml:10: syntax error, unexpected tCONSTANT, expecting ')'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.6ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:05:11 +0700
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.haml within layouts/application (6.4ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected =>, expecting '}'
+...button.btn.btn-default{:type => "button",:name => "search"} ...
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected ',', expecting '}'
+....btn-default{:type => "button",:name => "search"} Search
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected tCONSTANT, expecting ')'):
+  app/views/products/index.html.haml:10: syntax error, unexpected =>, expecting '}'
+  app/views/products/index.html.haml:10: syntax error, unexpected ',', expecting '}'
+  app/views/products/index.html.haml:10: syntax error, unexpected tCONSTANT, expecting ')'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:05:12 +0700
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.haml within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected =>, expecting '}'
+...button.btn.btn-default{:type => "button",:name => "search"} ...
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected ',', expecting '}'
+....btn-default{:type => "button",:name => "search"} Search
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected tCONSTANT, expecting ')'):
+  app/views/products/index.html.haml:10: syntax error, unexpected =>, expecting '}'
+  app/views/products/index.html.haml:10: syntax error, unexpected ',', expecting '}'
+  app/views/products/index.html.haml:10: syntax error, unexpected tCONSTANT, expecting ')'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:05:13 +0700
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.haml within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected =>, expecting '}'
+...button.btn.btn-default{:type => "button",:name => "search"} ...
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected ',', expecting '}'
+....btn-default{:type => "button",:name => "search"} Search
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected tCONSTANT, expecting ')'):
+  app/views/products/index.html.haml:10: syntax error, unexpected =>, expecting '}'
+  app/views/products/index.html.haml:10: syntax error, unexpected ',', expecting '}'
+  app/views/products/index.html.haml:10: syntax error, unexpected tCONSTANT, expecting ')'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:05:14 +0700
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.haml within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected =>, expecting '}'
+...button.btn.btn-default{:type => "button",:name => "search"} ...
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected ',', expecting '}'
+....btn-default{:type => "button",:name => "search"} Search
+...                               ^
+/home/baothi/developerment/sanpham/app/views/products/index.html.haml:10: syntax error, unexpected tCONSTANT, expecting ')'):
+  app/views/products/index.html.haml:10: syntax error, unexpected =>, expecting '}'
+  app/views/products/index.html.haml:10: syntax error, unexpected ',', expecting '}'
+  app/views/products/index.html.haml:10: syntax error, unexpected tCONSTANT, expecting ')'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.0ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:09:41 +0700
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.haml within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+     8:       %input.form-control{:placeholder => "Search for...", :type => "text",:name => "text"}
+     9:         %span.input-group-btn
+    10:           <form action=#{product_path} method="get">
+    11:             %td
+    12:               %button.btn.btn-default{:name => "search", :type => "submit", :value => "search"} Search
+    13:   %table.table.table-striped
+    14:     %thead
+  app/views/products/index.html.haml:11
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.0ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:09:44 +0700
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.haml within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+     8:       %input.form-control{:placeholder => "Search for...", :type => "text",:name => "text"}
+     9:         %span.input-group-btn
+    10:           <form action=#{product_path} method="get">
+    11:             %td
+    12:               %button.btn.btn-default{:name => "search", :type => "submit", :value => "search"} Search
+    13:   %table.table.table-striped
+    14:     %thead
+  app/views/products/index.html.haml:11
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (29.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:09:58 +0700
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.haml within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+     8:       %input.form-control{:placeholder => "Search for...", :type => "text",:name => "text"}
+     9:         %span.input-group-btn
+    10:           <form action=#{product_path} method="get">
+    11:               %button.btn.btn-default{:name => "search", :type => "submit", :value => "search"} Search
+    12:   %table.table.table-striped
+    13:     %thead
+    14:       %tr
+  app/views/products/index.html.haml:11
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (14.4ms)
+Completed 200 OK in 97ms (Views: 96.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/scaffolds.self-c6a6b63b8c5cb035e842011ba9b7f601a157883214e99ba75e397a9b6b91a925.css?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/home.self-f8440bd95105a2e3cb3177073c1b2a79422fd8c18d6096b46e32a9bb2f4bab72.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/init.self-aeb49557f5adc869b9e19f692da853c686eddd440f24f4d6c8913c8ffc11ad89.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-05-31 20:11:00 +0700
+
+
+Started POST "/products" for 127.0.0.1 at 2015-05-31 20:11:40 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZOCYP6JreQ/ZNn5Xn6rmFEe7h6YZYV8QldTWywbiSxOwmszXPQcQTMXt3X5kvqhLDeX6141auwX2GHq4/ZWSFA==", "text"=>"", "search"=>"search"}
+Completed 400 Bad Request in 13ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: product):
+  app/controllers/products_controller.rb:78:in `product_params'
+  app/controllers/products_controller.rb:33:in `create'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.6ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.6ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-05-31 20:12:37 +0700
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZOCYP6JreQ/ZNn5Xn6rmFEe7h6YZYV8QldTWywbiSxOwmszXPQcQTMXt3X5kvqhLDeX6141auwX2GHq4/ZWSFA==", "text"=>"", "search"=>"search"}
+Completed 400 Bad Request in 4ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: product):
+  app/controllers/products_controller.rb:78:in `product_params'
+  app/controllers/products_controller.rb:33:in `create'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:13:45 +0700
+Processing by ProductsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `present=' for nil:NilClass):
+  app/controllers/products_controller.rb:8:in `index'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.0ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:14:04 +0700
+Processing by ProductsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `present' for nil:NilClass):
+  app/controllers/products_controller.rb:8:in `index'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:14:19 +0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (77.3ms)
+Completed 200 OK in 374ms (Views: 360.7ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/scaffolds.self-c6a6b63b8c5cb035e842011ba9b7f601a157883214e99ba75e397a9b6b91a925.css?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/home.self-f8440bd95105a2e3cb3177073c1b2a79422fd8c18d6096b46e32a9bb2f4bab72.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/init.self-aeb49557f5adc869b9e19f692da853c686eddd440f24f4d6c8913c8ffc11ad89.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-05-31 20:14:20 +0700
+
+
+Started POST "/products" for 127.0.0.1 at 2015-05-31 20:14:24 +0700
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/V+pvxJDFyneddcFsWUCGuRWXNmrHNHdCB8+EYWCpYwpJf1XjS9+asKudCxKcUxFrgghqD8nNchr05JifvV8iw==", "text"=>"", "search"=>"search"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: product):
+  app/controllers/products_controller.rb:78:in `product_params'
+  app/controllers/products_controller.rb:33:in `create'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.4ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2015-05-31 20:14:51 +0700
+
+ActionController::RoutingError (No route matches [GET] "/1"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.9ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:15:40 +0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (13.8ms)
+Completed 200 OK in 110ms (Views: 108.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-05-31 20:15:42 +0700
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xLqvS4vGnwk6tNzAGxYxwC+EvepYSl6TZoWXnR5iNX0QwPujFKr2SiZvf+ngAn+fZdrAm8xxuoYFSTvu5RXseg==", "text"=>"", "search"=>"search"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: product):
+  app/controllers/products_controller.rb:78:in `product_params'
+  app/controllers/products_controller.rb:33:in `create'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:16:20 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.1ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (58.9ms)
+Completed 200 OK in 398ms (Views: 375.9ms | ActiveRecord: 9.0ms)
+
+
+Started POST "/products" for 127.0.0.1 at 2015-05-31 20:16:32 +0700
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BUmiE9X1cdOzw95QruUInJv75S3dx8u5ms4r7NoYdczRM/b7SpkYkK8YfXlV8UbD0aWYXEn8L6z5AoefIW+syw==", "text"=>"", "search"=>"search"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: product):
+  app/controllers/products_controller.rb:78:in `product_params'
+  app/controllers/products_controller.rb:33:in `create'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.9ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.9ms)
+
+
+Started GET "/products1" for 127.0.0.1 at 2015-05-31 20:16:59 +0700
+
+ActionController::RoutingError (No route matches [GET] "/products1"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:18:20 +0700
+Processing by ProductsController#index as HTML
+  Rendered products/index.html.haml within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Illegal nesting: nesting within a tag that already has content is illegal.):
+    1: / = simple_form_for Product.new do |product|
+    2:   - model_class = Product
+    3:   .page-header
+    4:     %h1=t '.title', :default => model_class.model_name.human.pluralize.titleize
+    5:     <form action=#{products_path} method="get">
+  app/views/products/index.html.haml:2
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (1.1ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (14.4ms)
+Completed 200 OK in 190ms (Views: 187.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/scaffolds.self-c6a6b63b8c5cb035e842011ba9b7f601a157883214e99ba75e397a9b6b91a925.css?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/home.self-f8440bd95105a2e3cb3177073c1b2a79422fd8c18d6096b46e32a9bb2f4bab72.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/init.self-aeb49557f5adc869b9e19f692da853c686eddd440f24f4d6c8913c8ffc11ad89.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-05-31 20:18:40 +0700
+
+
+Started GET "/products?text=&search=search" for 127.0.0.1 at 2015-05-31 20:18:42 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"", "search"=>"search"}
+  [1m[35mProduct Load (0.4ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (7.1ms)
+Completed 200 OK in 95ms (Views: 93.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products?text=sach&search=search" for 127.0.0.1 at 2015-05-31 20:18:58 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"sach", "search"=>"search"}
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (8.1ms)
+Completed 200 OK in 115ms (Views: 113.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products?text=sach&search=search" for 127.0.0.1 at 2015-05-31 20:22:46 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/home/baothi/developerment/sanpham/app/controllers/products_controller.rb:80: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/products_controller.rb:80: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.6ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.9ms)
+
+
+Started GET "/products?text=sach&search=search" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"sach", "search"=>"search"}
+  [1m[35mProduct Load (1.3ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (34.0ms)
+Completed 200 OK in 355ms (Views: 343.6ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/scaffolds.self-c6a6b63b8c5cb035e842011ba9b7f601a157883214e99ba75e397a9b6b91a925.css?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/home.self-f8440bd95105a2e3cb3177073c1b2a79422fd8c18d6096b46e32a9bb2f4bab72.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/init.self-aeb49557f5adc869b9e19f692da853c686eddd440f24f4d6c8913c8ffc11ad89.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-05-31 20:23:03 +0700
+
+
+Started GET "/products?text=sach&search=search" for 127.0.0.1 at 2015-05-31 20:23:08 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"sach", "search"=>"search"}
+  [1m[36mProduct Load (0.7ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (10.2ms)
+Completed 200 OK in 101ms (Views: 99.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/products?text=sach&search=search" for 127.0.0.1 at 2015-05-31 20:23:39 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"sach", "search"=>"search"}
+  [1m[35mProduct Load (0.8ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (22.3ms)
+Completed 200 OK in 199ms (Views: 188.9ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/products?text=sach&search=search" for 127.0.0.1 at 2015-05-31 20:24:21 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"sach", "search"=>"search"}
+  [1m[36mProduct Load (0.7ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (19.6ms)
+Completed 200 OK in 111ms (Views: 101.0ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/products?text=sach&search=search" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"sach", "search"=>"search"}
+  [1m[35mProduct Load (0.8ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (20.4ms)
+Completed 200 OK in 112ms (Views: 101.1ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/scaffolds.self-c6a6b63b8c5cb035e842011ba9b7f601a157883214e99ba75e397a9b6b91a925.css?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/home.self-f8440bd95105a2e3cb3177073c1b2a79422fd8c18d6096b46e32a9bb2f4bab72.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/init.self-aeb49557f5adc869b9e19f692da853c686eddd440f24f4d6c8913c8ffc11ad89.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-05-31 20:26:06 +0700
+
+
+Started GET "/products?text=sach&search=search" for 127.0.0.1 at 2015-05-31 20:26:09 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"sach", "search"=>"search"}
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (9.2ms)
+Completed 200 OK in 128ms (Views: 126.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products?text=&search=search" for 127.0.0.1 at 2015-05-31 20:26:27 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"", "search"=>"search"}
+  [1m[35mProduct Load (0.7ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (11.3ms)
+Completed 200 OK in 118ms (Views: 115.8ms | ActiveRecord: 0.7ms)

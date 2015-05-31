@@ -1,34 +1,33 @@
-= simple_form_for Product.new do |product|
-  - model_class = Product
-  .page-header
-    %h1=t '.title', :default => model_class.model_name.human.pluralize.titleize
-    / <form action=#{products_path} method="get">
-    .col-lg-6
-    .input-group
-      %input.form-control{:placeholder => "Search for...", :type => "text",:name => "text"}
-        %span.input-group-btn
-          %button.btn.btn-default{:type => "button",:name => "search"} Go!
-  %table.table.table-striped
-    %thead
+- model_class = Product
+.page-header
+  %h1=t '.title', :default => model_class.model_name.human.pluralize.titleize
+  <form action=#{products_path} method="get">
+  .col-lg-6
+  .input-group
+    %input.form-control{:placeholder => "Search for...", :type => "text",:name => "text"}
+      %span.input-group-btn
+        %button.btn.btn-default{:name => "search", :value => "search"} Search
+%table.table.table-striped
+  %thead
+    %tr
+      %th= model_class.human_attribute_name(:id)
+      %th= model_class.human_attribute_name(:name)
+      %th= model_class.human_attribute_name(:avatar)
+      %th= model_class.human_attribute_name(:price)
+      %th= model_class.human_attribute_name(:description)
+      %th= model_class.human_attribute_name(:created_at)
+      %th=t '.actions', :default => t("helpers.actions")
+  %tbody
+    - @products.each do |product|
       %tr
-        %th= model_class.human_attribute_name(:id)
-        %th= model_class.human_attribute_name(:name)
-        %th= model_class.human_attribute_name(:avatar)
-        %th= model_class.human_attribute_name(:price)
-        %th= model_class.human_attribute_name(:description)
-        %th= model_class.human_attribute_name(:created_at)
-        %th=t '.actions', :default => t("helpers.actions")
-    %tbody
-      - @products.each do |product|
-        %tr
-          %td= link_to product.id, product_path(product)
-          %td= product.name
-          %td= image_tag product.avatar_url(:thumb) if product.avatar?
-          %td= product.price
-          %td= product.description
-          %td=l product.created_at
-          %td
-            = link_to t('.edit', :default => t("helpers.links.edit")), edit_product_path(product), :class => 'btn btn-default btn-xs'
-            = link_to t('.destroy', :default => t("helpers.links.destroy")), product_path(product), :method => :delete, :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) }, :class => 'btn btn-xs btn-danger'
+        %td= link_to product.id, product_path(product)
+        %td= product.name
+        %td= image_tag product.avatar_url(:thumb) if product.avatar?
+        %td= product.price
+        %td= product.description
+        %td=l product.created_at
+        %td
+          = link_to t('.edit', :default => t("helpers.links.edit")), edit_product_path(product), :class => 'btn btn-default btn-xs'
+          = link_to t('.destroy', :default => t("helpers.links.destroy")), product_path(product), :method => :delete, :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) }, :class => 'btn btn-xs btn-danger'
 
 = link_to t('.new', :default => t("helpers.links.new")), new_product_path, :class => 'btn btn-primary'
