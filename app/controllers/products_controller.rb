@@ -7,7 +7,7 @@ class ProductsController < ApplicationController
     # byebug
     puts "======================================================================================="
     if params[:search].present?
-      @products = Product.search(params[:name])
+      @products = Product.search(params[:text])
       @products
     else 
       @products = Product.all
