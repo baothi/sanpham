@@ -1,0 +1,12 @@
+I"™(function() {
+  window.Home = (function() {
+    function Home() {
+      alert('111111111111111111111');
+    }
+
+    return Home;
+
+  })();
+
+}).call(this);
+:ET

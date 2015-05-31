@@ -1,0 +1,7 @@
+I"](function() {
+  $(function() {
+    return window.home = new Home;
+  });
+
+}).call(this);
+:ET

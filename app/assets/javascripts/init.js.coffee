@@ -1,0 +1,2 @@
+$ ->
+  window.home = new Home
