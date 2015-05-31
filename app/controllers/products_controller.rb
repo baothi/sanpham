@@ -4,7 +4,7 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   def index
-  if params[:text] == ''
+  if params[:search] == ''
     @posts = Product.search_name(params[:text])
   else 
     @products = Product.all
