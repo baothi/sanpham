@@ -5192,3 +5192,166 @@ Processing by ProductsController#index as HTML
   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT "products".* FROM "products" WHERE (name like '#%{text}%')[0m
   Rendered products/index.html.haml within layouts/application (32.0ms)
 Completed 200 OK in 5465ms (Views: 710.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 21:38:49 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.5ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (245.1ms)
+Completed 200 OK in 4103ms (Views: 2198.2ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/products?text=s&search=search" for 127.0.0.1 at 2015-05-31 21:38:57 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"s", "search"=>"search"}
+  [1m[36mProduct Load (2.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE (name like '#%{text}%')[0m
+  Rendered products/index.html.haml within layouts/application (31.1ms)
+Completed 200 OK in 3713ms (Views: 708.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-31 21:39:48 +0700
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.3ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (58.8ms)
+Completed 200 OK in 144391ms (Views: 810.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/products?text=s&search=search" for 127.0.0.1 at 2015-05-31 21:42:19 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"s", "search"=>"search"}
+  [1m[36mProduct Load (0.9ms)[0m  [1mSELECT "products".* FROM "products" WHERE (name like '#%{text}%')[0m
+  Rendered products/index.html.haml within layouts/application (31.2ms)
+Completed 200 OK in 3577ms (Views: 737.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/products?text=sach&search=search" for 127.0.0.1 at 2015-05-31 21:42:35 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"sach", "search"=>"search"}
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" WHERE (name like '#%{text}%')
+  Rendered products/index.html.haml within layouts/application (13.3ms)
+Completed 200 OK in 70048ms (Views: 755.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/products?text=sach&search=search" for 127.0.0.1 at 2015-05-31 21:43:52 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"sach", "search"=>"search"}
+  [1m[36mProduct Load (1.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE (name like '%')[0m
+  Rendered products/index.html.haml within layouts/application (45.7ms)
+Completed 200 OK in 73679ms (Views: 786.7ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/products?text=sach&search=search" for 127.0.0.1 at 2015-05-31 21:45:15 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"sach", "search"=>"search"}
+  [1m[35mProduct Load (1.3ms)[0m  SELECT "products".* FROM "products" WHERE (name like '%')
+  Rendered products/index.html.haml within layouts/application (116.8ms)
+Completed 200 OK in 117063ms (Views: 813.6ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/products?text=sach&search=search" for 127.0.0.1 at 2015-05-31 21:53:22 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"sach", "search"=>"search"}
+  [1m[36mProduct Load (1.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE (name like '%%')[0m
+  Rendered products/index.html.haml within layouts/application (113.3ms)
+Completed 200 OK in 7674ms (Views: 812.5ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-31 21:53:30 +0700
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 127.0.0.1 at 2015-05-31 21:53:30 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-31 21:53:30 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 21:53:30 +0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-31 21:53:31 +0700
+
+
+Started GET "/assets/scaffolds.self-c6a6b63b8c5cb035e842011ba9b7f601a157883214e99ba75e397a9b6b91a925.css?body=1" for 127.0.0.1 at 2015-05-31 21:53:31 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-31 21:53:31 +0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:31 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:31 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:31 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:31 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:31 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:31 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:31 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:31 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:31 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:31 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:31 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:31 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:32 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:32 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:32 +0700
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:32 +0700
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:32 +0700
+
+
+Started GET "/assets/home.self-f8440bd95105a2e3cb3177073c1b2a79422fd8c18d6096b46e32a9bb2f4bab72.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:32 +0700
+
+
+Started GET "/assets/init.self-aeb49557f5adc869b9e19f692da853c686eddd440f24f4d6c8913c8ffc11ad89.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:32 +0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:32 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-05-31 21:53:32 +0700
+
+
+Started GET "/products?text=s&search=search" for 127.0.0.1 at 2015-05-31 21:53:40 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"s", "search"=>"search"}
+  [1m[35mProduct Load (1.3ms)[0m  SELECT "products".* FROM "products" WHERE (name like '%%')
+  Rendered products/index.html.haml within layouts/application (119.5ms)
+Completed 200 OK in 1448ms (Views: 1437.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/products?text=s&search=search" for 127.0.0.1 at 2015-05-31 21:53:54 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"s", "search"=>"search"}
+  [1m[36mProduct Load (0.7ms)[0m  [1mSELECT "products".* FROM "products" WHERE (name like '%%')[0m
+  Rendered products/index.html.haml within layouts/application (107.9ms)
+Completed 200 OK in 1452ms (Views: 1443.0ms | ActiveRecord: 0.7ms)

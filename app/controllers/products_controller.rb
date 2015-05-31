@@ -4,7 +4,7 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   def index
-    byebug
+    # byebug
     puts "======================================================================================="
     if params[:search].present?
       @products = Product.search(params[:name])
