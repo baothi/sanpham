@@ -7321,3 +7321,380 @@ Processing by ProductsController#index as HTML
   Rendered collection (0.0ms)
   Rendered carts/_cart.html.haml (2.2ms)
 Completed 200 OK in 130ms (Views: 114.3ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2015-06-02 02:13:48 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#index as HTML
+  [1m[35mCart Load (1.1ms)[0m  SELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mProduct Load (1.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (30.3ms)
+  [1m[35mLineItem Load (0.9ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = $1  [["cart_id", 4]]
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.haml (18.6ms)
+Completed 200 OK in 450ms (Views: 400.2ms | ActiveRecord: 16.2ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:48 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:48 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:48 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:48 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:48 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:48 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:48 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:48 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:48 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:48 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/home.self-f8440bd95105a2e3cb3177073c1b2a79422fd8c18d6096b46e32a9bb2f4bab72.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/init.self-aeb49557f5adc869b9e19f692da853c686eddd440f24f4d6c8913c8ffc11ad89.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/carts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/line_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/scaffolds.self-181cbfe9a047c8ff665efe246a5e9f914e87771d3b38649952d0de20ceafdb90.css?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/carts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/assets/line_items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-02 02:13:49 +0700
+
+
+Started GET "/products?text=s&authenticity_token=hWv9ppe6nIGtsQhfDukkzuU6uvgPKBpD%2Bd7B4WtRb9mcahDou%2BVtu7OZWeWopt6gqWebMmUYYTHZKGzRYb2phA%3D%3D" for 127.0.0.1 at 2015-06-02 02:13:51 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"s", "authenticity_token"=>"hWv9ppe6nIGtsQhfDukkzuU6uvgPKBpD+d7B4WtRb9mcahDou+Vtu7OZWeWopt6gqWebMmUYYTHZKGzRYb2phA=="}
+  [1m[36mCart Load (0.3ms)[0m  [1mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35mProduct Load (0.8ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (8.0ms)
+  [1m[36mLineItem Load (0.7ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = $1[0m  [["cart_id", 4]]
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.haml (2.3ms)
+Completed 200 OK in 116ms (Views: 112.6ms | ActiveRecord: 1.8ms)
+
+
+Started DELETE "/carts/4" for 127.0.0.1 at 2015-06-02 02:14:10 +0700
+Processing by CartsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"AIZ1t0eERJpSCqum6XqfJOb8LE1ERrrmzIEa7VC/46IZh5j5a9u1oEwi+hxPNWVKqqENhy52wZTsd7fdWlMl/w==", "id"=>"4"}
+  [1m[35mCart Load (0.5ms)[0m  SELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mLineItem Load (0.5ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = $1  [["cart_id", 4]]
+  [1m[36mSQL (0.7ms)[0m  [1mDELETE FROM "carts" WHERE "carts"."id" = $1[0m  [["id", 4]]
+  [1m[35m (12.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/products
+Completed 302 Found in 23ms (ActiveRecord: 14.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2015-06-02 02:14:10 +0700
+Processing by ProductsController#index as HTML
+  [1m[36mCart Load (0.6ms)[0m  [1mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT 1[0m  [["id", nil]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2015-06-01 19:14:10.630441"], ["updated_at", "2015-06-01 19:14:10.630441"]]
+  [1m[35m (10.1ms)[0m  COMMIT
+  [1m[36mProduct Load (0.7ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (12.4ms)
+  [1m[35mLineItem Load (0.6ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = $1  [["cart_id", 5]]
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.haml (2.2ms)
+Completed 200 OK in 239ms (Views: 216.1ms | ActiveRecord: 13.2ms)
+
+
+Started DELETE "/carts/5" for 127.0.0.1 at 2015-06-02 02:14:13 +0700
+Processing by CartsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"92GFsvS0Gxu/Le76W8BkUxP0LuH60dorAG3nuahB36PuYGj82OvqIaEFv0D9j549X6kPK5DhoVkgm0qJoq0Z/g==", "id"=>"5"}
+  [1m[36mCart Load (0.4ms)[0m  [1mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mLineItem Load (0.3ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = $1[0m  [["cart_id", 5]]
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "carts" WHERE "carts"."id" = $1  [["id", 5]]
+  [1m[36m (13.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/products
+Completed 302 Found in 20ms (ActiveRecord: 15.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2015-06-02 02:14:13 +0700
+Processing by ProductsController#index as HTML
+  [1m[35mCart Load (0.5ms)[0m  SELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT 1  [["id", nil]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2015-06-01 19:14:13.942873"], ["updated_at", "2015-06-01 19:14:13.942873"]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mProduct Load (0.7ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (7.7ms)
+  [1m[36mLineItem Load (0.6ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = $1[0m  [["cart_id", 6]]
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.haml (2.2ms)
+Completed 200 OK in 133ms (Views: 115.7ms | ActiveRecord: 13.5ms)
+
+
+Started DELETE "/carts/6" for 127.0.0.1 at 2015-06-02 02:14:19 +0700
+Processing by CartsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"mPFulOhGfy8nQfPy7OHth7kqOx4Ien5qtGNchevQ7miB8IPaxBmOFTlpokhKrhfp9Xca1GJKBRiUlfG14TwoNQ==", "id"=>"6"}
+  [1m[35mCart Load (0.2ms)[0m  SELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mLineItem Load (0.4ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = $1  [["cart_id", 6]]
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "carts" WHERE "carts"."id" = $1[0m  [["id", 6]]
+  [1m[35m (14.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/products
+Completed 302 Found in 21ms (ActiveRecord: 15.5ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2015-06-02 02:14:20 +0700
+Processing by ProductsController#index as HTML
+  [1m[36mCart Load (0.4ms)[0m  [1mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT 1[0m  [["id", nil]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2015-06-01 19:14:20.027573"], ["updated_at", "2015-06-01 19:14:20.027573"]]
+  [1m[35m (10.5ms)[0m  COMMIT
+  [1m[36mProduct Load (0.7ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (6.2ms)
+  [1m[35mLineItem Load (0.5ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = $1  [["cart_id", 7]]
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.haml (2.1ms)
+Completed 200 OK in 124ms (Views: 104.9ms | ActiveRecord: 13.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2015-06-02 02:19:49 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#index as HTML
+  [1m[35mCart Load (0.9ms)[0m  SELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mProduct Load (1.2ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (32.2ms)
+  [1m[35mLineItem Load (1.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = $1  [["cart_id", 7]]
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.haml (20.8ms)
+Completed 500 Internal Server Error in 503ms (ActiveRecord: 15.6ms)
+
+ActionView::Template::Error (couldn't find file 'jquery.ui.effect-blind' with type 'application/javascript'):
+    37:             = render @cart
+    38:       %footer
+    39:         %p &copy; Company 2015
+    40: = javascript_include_tag "application"
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.haml:40:in `_app_views_layouts_application_html_haml___4550740829366671775_64734840'
+
+
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.4ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/baothi/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.8ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+Processing by ProductsController#index as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mProduct Load (0.7ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (6.2ms)
+  [1m[36mLineItem Load (0.7ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = $1[0m  [["cart_id", 7]]
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.haml (2.6ms)
+Completed 200 OK in 380ms (Views: 376.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/products.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/scaffolds.self-181cbfe9a047c8ff665efe246a5e9f914e87771d3b38649952d0de20ceafdb90.css?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/home.self-f8440bd95105a2e3cb3177073c1b2a79422fd8c18d6096b46e32a9bb2f4bab72.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/init.self-aeb49557f5adc869b9e19f692da853c686eddd440f24f4d6c8913c8ffc11ad89.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/line_items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/carts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-02 02:21:44 +0700
+
+
+Started GET "/assets/line_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-06-02 02:21:45 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-06-02 02:21:45 +0700
+
+
+Started GET "/assets/carts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-02 02:21:45 +0700
+
+
+Started GET "/products?text=s&authenticity_token=DP7nCxVE0wObfnESbR0oryrVYcKcImiHrvTRmdvCAjQV%2FwpFORsiOYVWIKjLUtLBZohACPYSE%2FWOAnyp0S7EaQ%3D%3D" for 127.0.0.1 at 2015-06-02 02:21:47 +0700
+Processing by ProductsController#index as HTML
+  Parameters: {"text"=>"s", "authenticity_token"=>"DP7nCxVE0wObfnESbR0oryrVYcKcImiHrvTRmdvCAjQV/wpFORsiOYVWIKjLUtLBZohACPYSE/WOAnyp0S7EaQ=="}
+  [1m[35mCart Load (0.3ms)[0m  SELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mProduct Load (0.7ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.haml within layouts/application (6.2ms)
+  [1m[35mLineItem Load (0.5ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = $1  [["cart_id", 7]]
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.haml (2.2ms)
+Completed 200 OK in 123ms (Views: 120.5ms | ActiveRecord: 1.5ms)
+
+
+Started DELETE "/carts/7" for 127.0.0.1 at 2015-06-02 02:21:56 +0700
+Processing by CartsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"qPBAofhgjk8H80+SaSXts0orNU9yVrucBVXkeSFuY9Ox8a3v1D9/dRnbHijPahfdBnYUhRhmwO4lo0lJK4Kljg==", "id"=>"7"}
+  [1m[36mCart Load (0.4ms)[0m  [1mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mLineItem Load (0.3ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = $1[0m  [["cart_id", 7]]
+  [1m[35mSQL (0.8ms)[0m  DELETE FROM "carts" WHERE "carts"."id" = $1  [["id", 7]]
+  [1m[36m (12.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/products
+Completed 302 Found in 21ms (ActiveRecord: 14.3ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2015-06-02 02:21:56 +0700
+Processing by ProductsController#index as HTML
+  [1m[35mCart Load (0.5ms)[0m  SELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT 1  [["id", nil]]
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", "2015-06-01 19:21:56.221350"], ["updated_at", "2015-06-01 19:21:56.221350"]]
+  [1m[36m (6.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mProduct Load (0.8ms)[0m  SELECT "products".* FROM "products"
+  Rendered products/index.html.haml within layouts/application (8.1ms)
+  [1m[36mLineItem Load (0.7ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = $1[0m  [["cart_id", 8]]
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.haml (2.2ms)
+Completed 200 OK in 141ms (Views: 123.2ms | ActiveRecord: 10.1ms)
