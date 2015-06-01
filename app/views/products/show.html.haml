@@ -9,12 +9,12 @@
 %p
   %strong= model_class.human_attribute_name(:image) + ':'
   %br
-  = @product.image
+  = image_tag @product.avatar_url(:thumb) if @product.avatar?
 %p
   %strong= model_class.human_attribute_name(:price) + ':'
   %br
-  = image_tag @product.avatar_url(:thumb) if @product.avatar?
-  / = @product.price
+  / = image_tag @product.avatar_url(:thumb) if @product.avatar?
+  = @product.price
 %p
   %strong= model_class.human_attribute_name(:description) + ':'
   %br

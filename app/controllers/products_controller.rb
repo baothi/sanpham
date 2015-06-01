@@ -1,11 +1,12 @@
 class ProductsController < ApplicationController
   before_action :set_product, only: [:show, :edit, :update, :destroy]
-
+  include CurrentCart
+  before_action :set_cart
+  
   # GET /products
   # GET /products.json
   def index
     # byebug
-    puts "======================================================================================="
     if params[:search].present?
       @products = Product.search(params[:text])
       @products
