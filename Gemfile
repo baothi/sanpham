@@ -52,3 +52,4 @@ gem "carrierwave"
 gem "rmagick"
 gem 'simple_form'
 gem 'pry-byebug'
+gem 'ransack', github: 'activerecord-hackery/ransack'

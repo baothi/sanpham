@@ -1,12 +1,7 @@
 - model_class = Product
 .page-header
   %h1=t '.title', :default => model_class.model_name.human.pluralize.titleize
-  / <form action=#{products_path} method="get">
-  .col-lg-6
-  .input-group
-    %input.form-control{:placeholder => "Search for...", :type => "text",:name => "text"}
-      %span.input-group-btn
-        %button.btn.btn-default{:name => "search", :value => "search"} Search
+  = render 'search'
 %table.table.table-striped
   %thead
     %tr

@@ -7,12 +7,13 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     # byebug
-    if params[:search].present?
-      @products = Product.search(params[:text])
-      @products
-    else 
-      @products = Product.all
-    end
+    # if params[:search].present?
+    #   @products = Product.search(params[:text])
+    #   @products
+    # else 
+      # @products = Product.order(:name)
+    # end
+    @products = Product.all
   end
 
   # GET /products/1

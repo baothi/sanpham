@@ -11,7 +11,7 @@ class Product < ActiveRecord::Base
             message: 'must be a URL for GIF, JPG or PNG image.'
             }
   # byebug
-  scope :search ,-> (text) {where("name like ?","%#{text}%")}
+  # scope :search ,-> (text) {where("name like ?","%#{text}%")}
   # def self.search(text)
   #   if text
   #     where('name LIKE ?', "%#{text}%")

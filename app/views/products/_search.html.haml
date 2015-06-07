@@ -1,0 +1,7 @@
+= search_form_for( @search,url: products_path, html: { method: :post })
+  .row
+    .col-lg-6
+      .input-group
+        %input.form-control{:placeholder => "Search for...", :type => "text",:name => "text"}
+        %span.input-group-btn
+          %button.btn.btn-default{:name => "search", :value => "search"} Search
