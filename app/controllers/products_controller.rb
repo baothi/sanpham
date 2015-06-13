@@ -1,7 +1,7 @@
 class ProductsController < ApplicationController
+  before_action :set_cart
   before_action :set_product, only: [:show, :edit, :update, :destroy]
   include CurrentCart
-  before_action :set_cart
   
   # GET /products
   # GET /products.json
@@ -13,7 +13,9 @@ class ProductsController < ApplicationController
     # else 
       # @products = Product.order(:name)
     # end
-    @products = Product.all
+    @search = Product.ransack(params[:q])
+    @products = @search.result(distinct: true)
+    @products
   end
 
   # GET /products/1

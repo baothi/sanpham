@@ -1,7 +1,11 @@
-= search_form_for( @search,url: products_path, html: { method: :post })
+= search_form_for @search do |f|
   .row
     .col-lg-6
       .input-group
-        %input.form-control{:placeholder => "Search for...", :type => "text",:name => "text"}
-        %span.input-group-btn
-          %button.btn.btn-default{:name => "search", :value => "search"} Search
+        = f.search_field :name_cont 
+        = f.submit
+        / %input.form-control{:placeholder => "Search for...", :type => "text",:name => "text"}
+        / %span.input-group-btn
+        /   %button.btn.btn-default{:name => "commit",:type => "submit" ,:value => "search"} Search
+
+
